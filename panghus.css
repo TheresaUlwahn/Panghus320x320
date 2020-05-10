@@ -39,8 +39,8 @@ body {
 }
 
 .imgLogo {
-	width: 50px;
-	height: 50px;
+	width: 100px;
+	height: 100px;
 	position: absolute;
   top: 8px;
   left: 16px;
@@ -73,6 +73,7 @@ h1 {
 	font-size: medium;
 	margin-bottom: 0px;
 	margin-top: 6px;
+	letter-spacing: 1px;
 }
 
 h2 {
@@ -83,14 +84,16 @@ h2 {
 	margin: 0px;
 	color: #82a1b4;
 	text-transform:uppercase;
+	letter-spacing: 1px;
 }
 
 h3 {
-	font-family: gothamBook, sans-serif;
+	font-family: gothamBold, sans-serif;
 	font-size: 9px;
 	padding: 8px 3px;
 	margin: 0px;
 	color: #82a1b4;
+	font-weight: bold;
 }
 
 button {
