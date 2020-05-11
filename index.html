@@ -8,15 +8,12 @@
         document.write('<scr'+'ipt src="'+p+'//sting.de17a.com/html5.js"></scr'+'ipt>');
       } else { window.HTML5.boot(window, window.Sting); }
     </script>
-    <!-- Do not change anything above this line -->
-
-    <!-- Place your style and other resourcer under this line -->
+   
     <link rel="stylesheet" href="./panghus.css">
     <title>Panghus 320x320</title>  
     </head>
   <body>
 
-    <!-- Place your html under this line -->
     <section id="click-me" class="banner">
 			<div class="imgSection">
 					<img class="imgLogo" width="100" height="100" src="./assets/LoggaVit.png" alt="panghusLogo">
@@ -25,44 +22,34 @@
 			<div class="info">
         <div class="headLines">
 					<h1>Linköping Ljungsbro-Ängar</h1> 
-					<!-- <h1>Linköping <br /> Ljungsbro Ängar</h1>  -->
 					<h2>Ett nytt område växer fram</h2>
         </div>
         <button class="glossy-button"><h3>Anmäl intresse</h3></button>
-          <!-- <button><h3>Anmäl intresse</h3></button>       -->
       </div>
     </section>
    
     <script type="text/javascript">
       html5.ready(function() {
-        // JavaScript to run when ad is done loading
-
-        // Run function when page loads
+       
         window.onload=changeImg;
         });
 
-        var i = 0; 			// Start Point
-        var images = [];	// Images Array
-        var time = 3000;	// Time Between Switch
-          
-        // Image List
+        var i = 0; 			
+        var images = [];	
+        var time = 3000;
+        
         images[0] = "./assets/Hus1.jpg";
         images[1] = "./assets/Hus2.jpg";
         images[2] = "./assets/Hus3.jpg";
-        // images[3] = "./assets/nybild.jpg";
-        // images[4] = "./assets/Hus3.jpg";
-        // images[5] = "./assets/Hus3 (kopia).jpg";
 
-        // Change Image
         function changeImg(){
           document.slide.src = images[i];
 
-          // Check If Index Is Under Max
           if(i < images.length - 1){
-            // Add 1 to Index
+  
             i++; 
           } else { 
-            // Reset Back To O
+       
             i = 0;
           }
 
