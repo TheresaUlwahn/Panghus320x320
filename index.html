@@ -1,3 +1,4 @@
+ 
 <!DOCTYPE html>
 <html>
   <head>
@@ -8,9 +9,10 @@
         document.write('<scr'+'ipt src="'+p+'//sting.de17a.com/html5.js"></scr'+'ipt>');
       } else { window.HTML5.boot(window, window.Sting); }
     </script>
-     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="./panghus.css">
-    <title>Panghus 320x320</title>  
+    <title>Panghus 250x600</title>  
     </head>
   <body>
 
@@ -21,35 +23,34 @@
 			</div>	
 			<div class="info">
         <div class="headLines">
-					<h1>Linköping-Ljungsbro Ängar</h1> 
-					<h2>Ett nytt område växer fram</h2>
+					<h1>Linköping <br /> Ljungsbro Ängar</h1> 
+					<h2>Ett nytt område växer fram <br />vackert beläget <br /> nära naturen</h2>
         </div>
-        <button class="glossy-button"><h3>Anmäl ditt intresse</h3></button>
+   
+          <button class="glossy-button"><h3>Anmäl ditt intresse</h3></button>      
       </div>
     </section>
    
     <script type="text/javascript">
       html5.ready(function() {
-       
+
         window.onload=changeImg;
         });
 
         var i = 0; 			
         var images = [];	
-        var time = 2000;
-        
-        images[0] = "./assets/Hus1mediumkopia.jpg";
-        images[1] = "./assets/Hus2mediumkopia.jpg";
-        images[2] = "./assets/Hus3mediumkopia.jpg";
+        var time = 3000;	
+
+        images[0] = "./assets/Kedjehuset_2_250x360level7.jpg";
+        images[1] = "./assets/radhusbaksida250x360level7.jpg";
+
 
         function changeImg(){
           document.slide.src = images[i];
 
           if(i < images.length - 1){
-  
             i++; 
           } else { 
-       
             i = 0;
           }
 
@@ -62,4 +63,3 @@
     </script>
   </body>
 </html>
-
