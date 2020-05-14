@@ -1,3 +1,4 @@
+
 body {
 	margin: 0px;
 	overflow: hidden;
@@ -8,15 +9,15 @@ body {
 .banner {
 	display: flex;
 	flex-direction: column;
-	width: 250px;
-	height: 600px;
+	width: 320px;
+	height: 320px;
 	background-color: #f3f3f3;
 	position: relative;
 }
 
 .imgSection {
-	width: 250px;
-	height: 360px;
+	width: 320px;
+	height: 230px;
 	position: relative;
 }
 
@@ -24,17 +25,18 @@ body {
 	width: 100px;
 	height: 100px;
 	position: absolute;
-  bottom: 12px;
+  bottom: 8px;
   right: 16px;
 }
 
 .productImg {
-	width: 250px;
+	width: 320px;
 	height: 100%;
 	object-fit: cover;
 }
 
 .info {
+	height: 90px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -42,39 +44,33 @@ body {
 	justify-content: center;
 }
 
-.headLines {
-  margin-top: 35px;
-  margin-bottom: 9px;
-}
-
 h1 {
 	font-family: 'Montserrat', sans-serif;
 	color: #82a1b4;
 	text-transform:uppercase;
-	font-size: large;
+	font-size: 14px;
 	margin-bottom: 0px;
-  margin-top: 0px;
-  letter-spacing: 1px;
+	margin-top: 6px;
+	letter-spacing: 1px;
 }
 
 h2 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 10px;
-	padding: 14px 6px;
+	padding: 8px 6px;
 	margin: 0px;
 	color: #82a1b4;
-  text-transform:uppercase;
-  letter-spacing: 1px;
-  line-height: 1.6;
+	text-transform:uppercase;
+	letter-spacing: 1px;
 }
 
 h3 {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 11px;
-  padding: 1px 5px;
+	font-size: 9px;
+  padding: 2px 3px;
 	margin: 0px;
-  color: #ffff;
-  line-height: 1.6;
+	color: #ffff;
+  letter-spacing: 0.5px;
 }
 
 .glossy-button {
@@ -93,17 +89,16 @@ h3 {
 	box-shadow:
 	  inset 0 -5px 20px hsla(0, 0%, 0%, 0.4), /* top light */
 	  inset 0 5px 20px hsla(0, 0%, 100%, 0.4); /* bottom shadow */
-
 	cursor: pointer;
 	transition: transform 0.1s, box-shadow 0.1s;
   }
   
-.glossy-button:before {
+  .glossy-button:before {
 	content: '';
 	display: block;
 	position: absolute;
-  width: 109px;
-  left: 11px;
+  width: 99px;
+  left: 10px;
   right: 20px;
   top: 2px;
   height: 12px;
